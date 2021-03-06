@@ -1,0 +1,14 @@
+body {
+  background: #fab;
+  color: #fff;
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+}
+
+.main_div{
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
