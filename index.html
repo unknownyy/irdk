@@ -15,10 +15,18 @@
     </div>
     <div class="loggedin_div" id="user_div">
       <h3>YAYYY! You successfully logged-in using Firebase.....</h3>
+      <h1>Burn the notes!</h1>
+    <form id="my-form">
+      <input id="note_input" name="note_input" placeholder="what's on your mind?">
+      <button type="submit">+ Add</button>
+    </form>
+    <table id="notes-container">
+    </table>
       <button onclick="logout()">Logout</button>
     </div>
     <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
     <script>
       // Your web app's Firebase configuration
         var firebaseConfig = {
